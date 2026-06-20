@@ -547,20 +547,7 @@ img { display: block; max-width: 100%; }
 .mock-analytics-stat span { font-size: 13px; color: var(--gray); margin-top: 6px; display: block; }
 
 /* ---------- dark accuracy section ---------- */
-.dark-section{
-  padding: 0;
-  overflow: hidden;
-}
 
-.accuracy-image{
-  display: block;
-
-  width: 100%;
-
-  height: auto;
-
-  object-fit: cover;
-}
 .dark-section h2 { color: #fff; font-size: 44px; }
 
 .stat-row {
