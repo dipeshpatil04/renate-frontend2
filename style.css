@@ -608,7 +608,23 @@ img { display: block; max-width: 100%; }
 /* ---------- scale section ---------- */
 
 .scale-section .eyebrow { color: var(--purple-dark); }
+.scale-section{
+  padding: 0;
 
+  overflow: hidden;
+
+  background: #000;
+}
+
+.scale-image{
+  display: block;
+
+  width: 100%;
+
+  height: auto;
+
+  object-fit: cover;
+}
 .proof-rows {
   margin-top: 50px;
   display: flex;
