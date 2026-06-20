@@ -213,20 +213,8 @@ img { display: block; max-width: 100%; }
   width: 100%;
   height: auto;
 }
-.trusted-label {
-  font-size: 14px;
-  font-weight: 600;
-  color: var(--purple-dark);
-  line-height: 1.35;
-  white-space: nowrap;
-}
-.trusted-divider {
-  width: 1px;
-  height: 38px;
-  background: #D2CCEC;
-  flex-shrink: 0;
-}
-.logos-img { flex: 0 1 auto; width: auto; height: 34px; object-fit: contain; }
+
+
 
 /* ---------- generic section ---------- */
 .section { padding: 100px 0; }
