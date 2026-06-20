@@ -609,7 +609,7 @@ img { display: block; max-width: 100%; }
 /* ---------- scale section ---------- */
 
 /* ===== SCALE SECTION ===== */
-
+.scale-section .eyebrow { color: var(--purple-dark); }
 .scale-section{
   background:#000;
   color:#fff;
