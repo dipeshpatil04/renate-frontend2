@@ -547,7 +547,9 @@ img { display: block; max-width: 100%; }
 .mock-analytics-stat span { font-size: 13px; color: var(--gray); margin-top: 6px; display: block; }
 
 /* ---------- dark accuracy section ---------- */
-
+.dark-section {
+  background: radial-gradient(120% 100% at 50% 0%, var(--dark-bg-2) 0%, var(--dark-bg) 60%);
+  color: #fff;
 .dark-section h2 { color: #fff; font-size: 44px; }
 
 .stat-row {
@@ -604,23 +606,9 @@ img { display: block; max-width: 100%; }
 .feature-card p { font-size: 13.5px; color: var(--gray); line-height: 1.55; margin-top: 8px; padding: 0 4px 6px; }
 
 /* ---------- scale section ---------- */
-.scale-section{
-  padding: 0;
 
-  overflow: hidden;
+.scale-section .eyebrow { color: var(--purple-dark); }
 
-  background: #000;
-}
-
-.scale-image{
-  display: block;
-
-  width: 100%;
-
-  height: auto;
-
-  object-fit: cover;
-}
 .proof-rows {
   margin-top: 50px;
   display: flex;
