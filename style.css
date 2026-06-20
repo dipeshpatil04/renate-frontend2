@@ -142,9 +142,7 @@ img { display: block; max-width: 100%; }
   position: relative;
   overflow: hidden;
 
-  padding: 90px 0 70px;
-
-
+  padding: 90px 0 0;   /* remove bottom padding */
 
   background: linear-gradient(
     180deg,
@@ -207,18 +205,23 @@ img { display: block; max-width: 100%; }
 
 
 /* IMAGE */
-.hero-ribbon {
-    position: absolute;
-    top: -40px;
-    right: -100px;
-    width: 1050px;
-    height: auto;
-    object-fit: contain;
-    opacity: .75;
-    z-index: 0;
-    pointer-events: none;
-}
+.hero-ribbon{
+  position: absolute;
 
+  top: -40px;
+
+  right: -180px;
+
+  width: 850px;
+
+  height: auto;
+
+  opacity: .75;
+
+  z-index: 0;
+
+  pointer-events: none;
+}
 /* ASK AI */
 
 .ask-ai-pill{
@@ -252,8 +255,10 @@ img { display: block; max-width: 100%; }
 }
 
 /* ---------- trusted strip ---------- */
-.trusted-strip {
-  padding: 0;
+.trusted-strip{
+  margin-top: -70px;   /* adjust -50 to -100 */
+  position: relative;
+  z-index: 2;
 }
 .trusted-inner {
   max-width: none;
