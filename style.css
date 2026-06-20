@@ -251,7 +251,7 @@ img { display: block; max-width: 100%; }
 
 /* ---------- trusted strip ---------- */
 .trusted-strip{
-  margin-top: -8px;
+  margin-top: -100px;
 
   position: relative;
 
