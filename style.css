@@ -207,27 +207,16 @@ img { display: block; max-width: 100%; }
 
 
 /* IMAGE */
-
-.hero-ribbon{
-  position: absolute;
-
-  top: -40px;
-
-  right: -180px;   /* was -420 */
-
-  width: 850px;    /* was 1200 */
-
-  height: auto;
-
-  max-width: none;
-
-  opacity: .75;
-
-  z-index: 1;
-
-  transform: translateX(0);
-
-  pointer-events: none;
+.hero-ribbon {
+    position: absolute;
+    top: -40px;
+    right: -100px;
+    width: 1050px;
+    height: auto;
+    object-fit: contain;
+    opacity: .75;
+    z-index: 0;
+    pointer-events: none;
 }
 
 /* ASK AI */
