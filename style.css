@@ -171,17 +171,24 @@ img { display: block; max-width: 100%; }
 }
 .hero-cta.center { justify-content: center; }
 
-.hero-ribbon {
-  position: absolute;
-  top: -10px;
-  left: 478px;
-  width: 1368px;
-  height: 719px;
-  object-fit: contain;
-  opacity: 0.74;
-  z-index: 1;
-}
 
+.hero-ribbon{
+  position: absolute;
+
+  top: 10px;
+  right: -320px;   /* move outside hero like Figma */
+
+  width: 920px;    /* keep original proportions */
+  height: auto;
+
+  object-fit: contain;
+
+  opacity: 1;
+
+  z-index: 0;
+
+  pointer-events: none;
+}
 .ask-ai-pill {
   position: absolute;
   right: 56px;
