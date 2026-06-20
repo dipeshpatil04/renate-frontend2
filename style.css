@@ -200,16 +200,18 @@ img { display: block; max-width: 100%; }
 
 /* ---------- trusted strip ---------- */
 .trusted-strip {
-  background: var(--lavender-band);
-  padding: 26px 0;
+  padding: 0;
 }
 .trusted-inner {
   max-width: none;
   margin: 0;
-  padding: 0 28px;
-  display: flex;
-  align-items: center;
-  gap: 26px;
+  padding: 0;
+  display: block;
+}
+.logos-img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 .trusted-label {
   font-size: 14px;
