@@ -173,13 +173,13 @@ img { display: block; max-width: 100%; }
 
 .hero-ribbon {
   position: absolute;
-  right: -40px;
   top: -10px;
-  width: 720px;
-  max-width: 962px;
-  height: auto;
+  left: 478px;
+  width: 1368px;
+  height: 719px;
+  object-fit: contain;
+  opacity: 0.74;
   z-index: 1;
-  opacity: .9;
 }
 
 .ask-ai-pill {
