@@ -144,7 +144,7 @@ img { display: block; max-width: 100%; }
 
   padding: 90px 0 70px;
 
-  min-height: 720px;
+
 
   background: linear-gradient(
     180deg,
@@ -211,25 +211,24 @@ img { display: block; max-width: 100%; }
 .hero-ribbon{
   position: absolute;
 
-  top: -80px;
+  top: -40px;
 
-  right: -420px;
+  right: -180px;   /* was -420 */
 
-  width: 1200px;
-
-  max-width: unset;
+  width: 850px;    /* was 1200 */
 
   height: auto;
 
-  object-fit: contain;
+  max-width: none;
 
-  opacity: .78;
+  opacity: .75;
 
   z-index: 1;
 
+  transform: translateX(0);
+
   pointer-events: none;
 }
-
 
 /* ASK AI */
 
