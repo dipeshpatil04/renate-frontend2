@@ -209,9 +209,9 @@ img { display: block; max-width: 100%; }
 /* IMAGE */
 .hero-ribbon {
     position: absolute;
-    top: -45px;
-    right: -50px;
-    width: 961px;
+    top: -55px;
+    right: 0px;
+    width: 1001px;
     height: auto;
     opacity: .72;
     z-index: 0;
