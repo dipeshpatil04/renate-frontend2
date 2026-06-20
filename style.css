@@ -173,7 +173,7 @@ img { display: block; max-width: 100%; }
 
 
 .hero-ribbon{
-  position: absolute;
+  position: relative;
 
   top: 20px;
   right: -120px;   /* move outside hero like Figma */
