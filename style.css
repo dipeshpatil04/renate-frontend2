@@ -204,9 +204,9 @@ img { display: block; max-width: 100%; }
   padding: 26px 0;
 }
 .trusted-inner {
-  max-width: var(--max);
-  margin: 0 auto;
-  padding: 0 32px;
+  max-width: none;
+  margin: 0;
+  padding: 0 28px;
   display: flex;
   align-items: center;
   gap: 26px;
@@ -224,7 +224,7 @@ img { display: block; max-width: 100%; }
   background: #D2CCEC;
   flex-shrink: 0;
 }
-.logos-img { height: 32px; width: auto; object-fit: contain; }
+.logos-img { flex: 1; width: 100%; height: 34px; object-fit: fill; }
 
 /* ---------- generic section ---------- */
 .section { padding: 100px 0; }
