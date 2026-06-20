@@ -142,12 +142,14 @@ img { display: block; max-width: 100%; }
   position: relative;
   overflow: hidden;
 
-  padding: 90px 0 0;   /* remove bottom padding */
+  padding: 58px 0 0;
+
+  height: 650px;
 
   background: linear-gradient(
     180deg,
     #F8F6FF 0%,
-    #FFFFFF 70%
+    #FFFFFF 72%
   );
 }
 
@@ -208,21 +210,19 @@ img { display: block; max-width: 100%; }
 .hero-ribbon{
   position: absolute;
 
-  top: -40px;
+  top: 22px;
 
-  right: -180px;
+  right: -260px;
 
-  width: 850px;
+  width: 760px;
 
   height: auto;
 
-  opacity: .75;
+  opacity: .72;
 
   z-index: 0;
 
   pointer-events: none;
-
-  transform: translateY(120px); /* extend image downward */
 }
 /* ASK AI */
 
@@ -258,7 +258,11 @@ img { display: block; max-width: 100%; }
 
 /* ---------- trusted strip ---------- */
 .trusted-strip{
-  transform: none;
+  margin-top: -8px;
+
+  position: relative;
+
+  z-index: 2;
 }
 .trusted-inner {
   max-width: none;
