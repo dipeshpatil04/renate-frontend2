@@ -607,50 +607,134 @@ img { display: block; max-width: 100%; }
 
 /* ---------- scale section ---------- */
 
-.scale-section .eyebrow { color: var(--purple-dark); }
+/* ===== SCALE SECTION ===== */
+
 .scale-section{
-  padding: 0;
+  background:#000;
+  color:#fff;
 
-  overflow: hidden;
+  padding:120px 0;
 
-  background: #000;
+  overflow:hidden;
+}
+
+.scale-section .section-inner{
+  max-width:1200px;
+  margin:0 auto;
+  padding:0 32px;
+}
+
+.scale-section .eyebrow{
+  color:var(--purple-dark);
 }
 
 .scale-image{
-  display: block;
+  display:block;
 
-  width: 100%;
+  width:100%;
+  max-width:1200px;
 
-  height: auto;
+  height:auto;
 
-  object-fit: cover;
+  margin:0 auto 80px;
+
+  object-fit:contain;
+
+  border-radius:0;
 }
-.proof-rows {
-  margin-top: 50px;
-  display: flex;
-  flex-direction: column;
-  gap: 0;
-}
-.proof-row {
-  display: grid;
-  grid-template-columns: 220px 1fr 1fr;
-  align-items: center;
-  gap: 24px;
-  border: 1.5px solid var(--border);
-  border-radius: 4px;
-  padding: 26px 28px;
-  margin-top: -1.5px;
-}
-.proof-row--short { grid-template-columns: 220px 1fr; max-width: 760px; }
-.proof-stat strong { display: block; font-size: 21px; font-weight: 700; }
-.proof-stat span { display: block; font-size: 14px; color: var(--gray); margin-top: 2px; }
 
-.brand-mark { font-weight: 800; font-size: 17px; letter-spacing: -0.01em; color: var(--ink); display: flex; flex-direction: column; line-height: 1.1; }
-.brand-mark small { font-size: 9px; font-weight: 600; letter-spacing: .04em; color: var(--gray-light); }
-.brand-schmitz { color: #003DA5; }
-.brand-bullhorn { color: #D6601E; }
-.brand-reddys { color: #5536DB; }
 
+/* proof rows */
+
+.proof-rows{
+  margin-top:50px;
+
+  display:flex;
+
+  flex-direction:column;
+
+  gap:0;
+}
+
+.proof-row{
+  display:grid;
+
+  grid-template-columns:220px 1fr 1fr;
+
+  align-items:center;
+
+  gap:24px;
+
+  border:1.5px solid var(--border);
+
+  border-radius:4px;
+
+  padding:26px 28px;
+
+  margin-top:-1px;
+}
+
+.proof-row--short{
+  grid-template-columns:220px 1fr;
+
+  max-width:760px;
+}
+
+.proof-stat strong{
+  display:block;
+
+  font-size:21px;
+
+  font-weight:700;
+}
+
+.proof-stat span{
+  display:block;
+
+  font-size:14px;
+
+  color:var(--gray);
+
+  margin-top:2px;
+}
+
+.brand-mark{
+  font-weight:800;
+
+  font-size:17px;
+
+  letter-spacing:-0.01em;
+
+  color:#fff;
+
+  display:flex;
+
+  flex-direction:column;
+
+  line-height:1.1;
+}
+
+.brand-mark small{
+  font-size:9px;
+
+  font-weight:600;
+
+  letter-spacing:.04em;
+
+  color:var(--gray-light);
+}
+
+.brand-schmitz{
+  color:#003DA5;
+}
+
+.brand-bullhorn{
+  color:#D6601E;
+}
+
+.brand-reddys{
+  color:#5536DB;
+}
 /* ---------- photo banner ---------- */
 .photo-banner { position: relative; }
 .photo-banner-img { width: 100%; height: 480px; object-fit: cover; display: block; }
