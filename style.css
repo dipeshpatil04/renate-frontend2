@@ -550,6 +550,7 @@ img { display: block; max-width: 100%; }
 .dark-section {
   background: radial-gradient(120% 100% at 50% 0%, var(--dark-bg-2) 0%, var(--dark-bg) 60%);
   color: #fff;
+}
 .dark-section h2 { color: #fff; font-size: 44px; }
 
 .stat-row {
