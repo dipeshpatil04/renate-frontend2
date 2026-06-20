@@ -173,21 +173,32 @@ img { display: block; max-width: 100%; }
 
 
 .hero-ribbon{
-  position: relative;
+  position: absolute;
 
-  top: 20px;
-  right: -120px;   /* move outside hero like Figma */
+  top: -40px;
+  right: -520px;
 
-  width: 920px;    /* keep original proportions */
+  width: 1150px;
   height: auto;
 
   object-fit: contain;
 
-  opacity: 1;
+  opacity: .75;
 
   z-index: 0;
 
   pointer-events: none;
+}
+
+.hero-copy{
+  position: relative;
+  z-index: 2;
+}
+
+.hero{
+  position: relative;
+  overflow: hidden;
+  min-height: 720px;
 }
 .ask-ai-pill {
   position: absolute;
