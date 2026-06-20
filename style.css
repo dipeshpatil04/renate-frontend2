@@ -176,7 +176,7 @@ img { display: block; max-width: 100%; }
   position: absolute;
 
   top: 20px;
-  right: -320px;   /* move outside hero like Figma */
+  right: -120px;   /* move outside hero like Figma */
 
   width: 920px;    /* keep original proportions */
   height: auto;
