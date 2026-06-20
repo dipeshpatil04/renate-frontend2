@@ -256,9 +256,7 @@ img { display: block; max-width: 100%; }
 
 /* ---------- trusted strip ---------- */
 .trusted-strip{
-  margin-top: -70px;   /* adjust -50 to -100 */
-  position: relative;
-  z-index: 2;
+  transform: translateY(60px);
 }
 .trusted-inner {
   max-width: none;
