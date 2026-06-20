@@ -736,19 +736,48 @@ img { display: block; max-width: 100%; }
   color:#5536DB;
 }
 /* ---------- photo banner ---------- */
-.photo-banner { position: relative; }
-.photo-banner-img { width: 100%; height: 480px; object-fit: cover; display: block; }
-.photo-banner-overlay {
-  position: absolute;
-  left: 60px;
-  bottom: 50px;
-  color: #fff;
+.photo-banner{
+  position: relative;
+
+  width: 100%;
+
+  overflow: hidden;
+
+  border-radius: 24px; /* remove if not needed */
 }
-.photo-banner-overlay h3 {
-  color: #fff;
-  font-size: 38px;
-  line-height: 1.2;
-  margin-top: 16px;
+
+.photo-banner-img{
+  display:block;
+
+  width:100%;
+
+  height:auto;       /* ← change from 480px */
+
+  object-fit:cover;
+}
+
+.photo-banner-overlay{
+  position:absolute;
+
+  left:60px;
+
+  bottom:60px;
+
+  z-index:2;
+
+  max-width:520px;
+
+  color:#fff;
+}
+
+.photo-banner-overlay h3{
+  margin:0;
+
+  color:#fff;
+
+  font-size:38px;
+
+  line-height:1.15;
 }
 
 /* ---------- footer ---------- */
